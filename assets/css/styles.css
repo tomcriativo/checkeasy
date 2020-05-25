@@ -1,0 +1,119 @@
+.navbar {
+  height: 70px !important;
+  box-shadow: 0 2px 10px 0 rgba(158, 184, 209, 0.16) !important;
+}
+
+#modal-app {
+  margin-top: 50px;
+  width: 1088px;
+  height: 562px;
+  border-radius: 10px;
+  box-shadow: 0 3px 30px 0 rgba(158, 184, 209, 0.16);
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  color: #686976;
+  font-size: 1.8em;
+}
+
+h5 {
+  text-align: center;
+  color: #b7b7c3;
+  font-size: 1.2em;
+}
+
+#div-info {
+  margin-top: 50px;
+}
+
+.btn.btn-primary {
+  display: block;
+  padding: 12px;
+  border: 1px solid #f3123c;
+  border-radius: 4px;
+  background-color: #f3123c;
+  font-weight: 400;
+  letter-spacing: .1em;
+  font-size: 12px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 8px 12px -8px #f3123c;
+  box-shadow: 0 8px 12px -8px #f3123c;
+  border-radius: 8px;
+}
+
+#div-form {
+  /*display: flex;*/
+  margin-top: 50px;
+}
+
+#searchbar {
+  width: 70%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  margin-right: 20px;
+  -webkit-transition: width .2s;
+  transition: width .2s;
+}
+
+.input-search {
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-image: url(../../assets/img/placa-de-carro.svg);
+  background-position: left 9px center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid #ecedf2;
+  border-radius: 8px;
+  z-index: 4;
+  position: relative;
+  height: 47px;
+  padding-left: 65px;
+  padding-right: 0;
+  -webkit-transition: 0s;
+  transition: 0s;
+  font-size: 16px;
+  overflow: visible;
+}
+
+#botao-search {
+  display: block;
+  padding: 12px;
+  border: 1px solid #f3123c;
+  border-radius: 4px;
+  background-color: #f3123c;
+  font-weight: 400;
+  letter-spacing: .1em;
+  font-size: 14px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 8px 12px -8px #f3123c;
+  box-shadow: 0 8px 12px -8px #f3123c;
+  border-radius: 8px;
+  width: 30%;
+  height: 47px;
+}
+
+.btn.btn-secondary {
+  display: block;
+  padding: 12px;
+  border: 1px solid #f3123c;
+  border-radius: 4px;
+  background-color: #f3123c;
+  font-weight: 400;
+  letter-spacing: .1em;
+  font-size: 14px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 8px 12px -8px #f3123c;
+  box-shadow: 0 8px 12px -8px #f3123c;
+  border-radius: 8px;
+  width: 30%;
+  height: 47px;
+}
+
