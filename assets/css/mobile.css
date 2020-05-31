@@ -1,0 +1,60 @@
+@media only screen and (max-width: 576px) {
+  #div-titulo h2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #div-info {
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #div-info h5 {
+    text-align: center;
+    color: #686976;
+    font-size: 1.5em !important;
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .input-search {
+    font-size: 1.0em !important;
+    width: 250px !important;
+    height: 60px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .btn.btn-secondary {
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    width: 250px !important;
+    height: 60px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #modal-app {
+    padding: 10px !important;
+    background: #FFF !important;
+    width: 100% !important;
+    box-shadow: none !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .conteudo {
+    background: #FFF !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #passos {
+    display: none !important;
+  }
+}
+
