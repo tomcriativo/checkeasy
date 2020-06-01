@@ -35,19 +35,44 @@ h3 {
 }
 
 h4 {
-  text-align: center;
+  /*text-align: center;*/
   color: #b7b7c3;
   font-size: 0.8rem;
 }
 
 h5 {
-  text-align: center;
+  /*text-align: center;*/
   color: #b7b7c3;
   font-size: 1.1rem;
 }
 
-#div-info {
-  /*margin-top: 50px;*/
+#div-info h4 {
+  margin-left: 5px;
+}
+
+.input-checkbox {
+  -webkit-appearance: none;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  margin-right: 7px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(223, 224, 231);
+  border-image: initial;
+  padding: 0px;
+  border-radius: 4px;
+}
+
+.input-checkbox:checked {
+  background-color: rgb(243, 18, 60);
+  background-image: url(../../assets/img//check-white.svg);
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .btn.btn-primary {
@@ -67,7 +92,7 @@ h5 {
 
 #div-form {
   /*display: flex;*/
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 
 #searchbar {
@@ -182,5 +207,14 @@ h5 {
 #etapas-check p {
   color: #B7B7C3;
   text-align: center;
+}
+
+.div-fotos {
+  border-radius: 8px;
+  border: dashed 2px #b7b7c3;
+}
+
+.div-textarea textarea {
+  height: 100%;
 }
 
