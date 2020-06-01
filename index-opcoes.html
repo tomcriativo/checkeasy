@@ -39,42 +39,29 @@
     <section class="conteudo p-5">
         <div class="container">
             <div class="row d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center">
-                <div class="col-md-8 p-5" id="modal-app">
-                    <div class="text-center" id="div-titulo"><img class="justify-content-xl-center" src="assets/img/ok-verde.svg"></div>
-                    <div id="div-titulo-1">
-                        <h2 class="mb-4 mt-3"><strong>Obrigado por enviar</strong><br><strong>a sua Avaliação!</strong><br></h2>
+                <div class="col-md-10 p-5" id="modal-app">
+                    <div id="div-titulo">
+                        <h2 class="mb-4">Opção de Vinculação do APP</h2>
                     </div>
-                </div>
-            </div>
-            <div class="row justify-content-center align-items-center mt-4">
-                <div class="col-md-8">
-                    <div class="progress">
-                        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                    <div id="div-info">
+                        <h5 class="text-center"><strong>Modelos Iframe e Modal</strong></h5>
                     </div>
-                    <div class="d-flex justify-content-between align-items-center align-self-center align-items-xl-start" id="passos">
-                        <div id="etapas-check" class="col-2 mt-4">
-                            <h1 class="rounded-circle check-ok">1</h1>
-                            <p class="text-center">Informa Placa do Veículo</p>
-                        </div>
-                        <div id="etapas-check" class="col-2 mt-4">
-                            <h1 class="rounded-circle check-ok">2</h1>
-                            <p class="text-center">Dados do Veículo</p>
-                        </div>
-                        <div id="etapas-check" class="col-2 mt-4">
-                            <h1 class="rounded-circle check-ok">3</h1>
-                            <p class="text-center">Confirmar Dados</p>
-                        </div>
-                        <div id="etapas-check" class="col-2 mt-4">
-                            <h1 class="rounded-circle check-ok">4</h1>
-                            <p class="text-center">Cadastrar Veículo</p>
-                        </div>
-                        <div id="etapas-check" class="col-2 mt-4">
-                            <h1 class="rounded-circle check-ok">5</h1>
-                            <p class="text-center">Inserir Fotos</p>
-                        </div>
-                        <div id="etapas-check" class="col-2 mt-4">
-                            <h1 class="rounded-circle check-ok">6</h1>
-                            <p class="text-center">Cadastrar Cliente</p>
+                    <div class="text-center d-md-flex justify-content-md-center mt-4" id="div-form"><a class="btn btn-secondary m-2" href="index-iframe.html">testar iframe</a><a class="btn btn-secondary m-2" href="check-2.html" data-toggle="modal" data-target="#iframe-check">testar modal</a>
+                        <div class="modal fade" role="dialog" tabindex="-1"
+                            id="iframe-check" aria-labelledby="Check Easy" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">CheckEasy - Avaliação de Veículos</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                                    <div class="modal-body"><iframe
+    src="section-iframe1.html"
+    width="100%"
+    height="500"
+    frameborder="0" allowfullscreen>
+</iframe></div>
+                                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Fechar</button></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

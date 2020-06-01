@@ -1,6 +1,13 @@
 @media only screen and (max-width: 576px) {
   #div-titulo h2 {
-    display: none;
+    /*display: none;*/
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #div-info h5 {
+    font-size: 1em;
   }
 }
 
